@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Send the project root to CodeIgniter's public document root.
+RewriteRule ^$ /htdocs/money/public/ [R=302,L]
